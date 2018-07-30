@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<section class=top>
+    <h1>My Contacts </h1>
+    <input class=area type=text "Name" placeholder="Name">
+    <input class=area  type=text "Email" placeholder="Email">
+    <input class=area  type=text "Phone" placeholder="Phone">
+    <input class=area  type=text "Relation" placeholder="Relation">
+    <button class=area onclick="addressBook.add();" type="button">Add</button>
+</section>
+
+<div id="overlay"></div>
+
+<section class="bottom">
+        <section class="item_container">
+          <section class="name"></section>
+          <section class="email"></section>
+          <section class="phone"></section>
+          <section class="relation"></section>
+          <section class="btn"> <button class="trashButton" onclick="AddressBook.clear();AddressBook.clearList();" type="button"><i class="material-icons">delete</i></button></section>
+          
+<!-- <button onclick="cart.clear(); cart.clearList();" type="button">DELETE ALL</button> -->
+        </section>
+        
+</section>
+
+
+
+<script src="script.js"></script>   
+</body>
+</html>
+
+    
